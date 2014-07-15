@@ -1,0 +1,23 @@
+/* COMMON -------------------------------- */
+
+/* html */
+html { margin: 1em 10%; background: $white; color: $black; font: { family: "Lato", sans-serif !important; weight: 400; } }
+*, *:before, *:after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* headings */
+h1, h2, h3, h4, h5, h6 { font: { weight: 600; } margin: .5em 0; }
+h1, .h1   { font-size: $h1 !important; }
+h2, .h2   { font-size: $h2; }
+h3, .h3   { font-size: $h3; }
+h4, .h4   { font-size: $h4; }
+h5, .h5   { font-size: $h4; text-transform: uppercase; }
+h6, .h6   { font-size: $h6; }
+.title    { font-size: 4em !important; }
+.subtitle { font: { size: 1.75em !important; weight: 300; } }
+
+/* text */
+p { font-size: $h6; margin: .5em 0; }
+code, .code, pre { color: $red; font: { family: "PT Mono"; weight: 300; style: italic; } }
+a { color: $blue; transition: .5s all; text: { decoration: none; } &:hover { color: $green; } }
+i, em, .italic { font: { style: italic; } }
+b, strong, .bold { font: { weight: 600; } }

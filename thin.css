@@ -1,0 +1,598 @@
+/* THIN.CSS BY OLIVER POPE -------------------------------- */
+/* COMMON -------------------------------- */
+/* html */
+html {
+  margin: 1em 10%;
+  background: #fff;
+  color: #111;
+  font-family: "Lato", sans-serif !important;
+  font-weight: 400; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+/* headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin: 0.5em 0; }
+
+h1, .h1 {
+  font-size: 64px !important; }
+
+h2, .h2 {
+  font-size: 48px; }
+
+h3, .h3 {
+  font-size: 36px; }
+
+h4, .h4 {
+  font-size: 24px; }
+
+h5, .h5 {
+  font-size: 24px;
+  text-transform: uppercase; }
+
+h6, .h6 {
+  font-size: 18px; }
+
+.title {
+  font-size: 4em !important; }
+
+.subtitle {
+  font-size: 1.75em !important;
+  font-weight: 300; }
+
+/* text */
+p {
+  font-size: 18px;
+  margin: 0.5em 0; }
+
+code, .code, pre {
+  color: #FF4136;
+  font-family: "PT Mono";
+  font-weight: 300;
+  font-style: italic; }
+
+a {
+  color: #0074D9;
+  -webkit-transition: 0.5s all;
+          transition: 0.5s all;
+  text-decoration: none; }
+  a:hover {
+    color: #2ECC40; }
+
+i, em, .italic {
+  font-style: italic; }
+
+b, strong, .bold {
+  font-weight: 600; }
+
+/* COLORS --------------------------------
+   
+   clrs.cc is created and maintained by mrmrs and is protected by the MIT License
+
+	 SKINS
+	 - Backgrounds
+	 - Colors
+	 - Border colors
+	 - SVG fills
+	 - SVG Strokes
+
+*/
+/* Backgrounds */
+.bg-navy {
+  background-color: #001F3F; }
+
+.bg-blue {
+  background-color: #0074D9; }
+
+.bg-aqua {
+  background-color: #7FDBFF; }
+
+.bg-teal {
+  background-color: #39CCCC; }
+
+.bg-olive {
+  background-color: #3D9970; }
+
+.bg-green {
+  background-color: #2ECC40; }
+
+.bg-lime {
+  background-color: #01FF70; }
+
+.bg-yellow {
+  background-color: #FFDC00; }
+
+.bg-orange {
+  background-color: #FF851B; }
+
+.bg-red {
+  background-color: #FF4136; }
+
+.bg-fuchsia {
+  background-color: #F012BE; }
+
+.bg-purple {
+  background-color: #B10DC9; }
+
+.bg-maroon {
+  background-color: #85144B; }
+
+.bg-white {
+  background-color: #fff; }
+
+.bg-gray {
+  background-color: #aaa; }
+
+.bg-silver {
+  background-color: #ddd; }
+
+.bg-black {
+  background-color: #111; }
+
+/* Colors */
+.navy {
+  color: #001F3F; }
+
+.blue {
+  color: #0074D9; }
+
+.aqua {
+  color: #7FDBFF; }
+
+.teal {
+  color: #39CCCC; }
+
+.olive {
+  color: #3D9970; }
+
+.green {
+  color: #2ECC40; }
+
+.lime {
+  color: #01FF70; }
+
+.yellow {
+  color: #FFDC00; }
+
+.orange {
+  color: #FF851B; }
+
+.red {
+  color: #FF4136; }
+
+.fuchsia {
+  color: #F012BE; }
+
+.purple {
+  color: #B10DC9; }
+
+.maroon {
+  color: #85144B; }
+
+.white {
+  color: #fff; }
+
+.silver {
+  color: #ddd; }
+
+.gray {
+  color: #aaa; }
+
+.black {
+  color: #111; }
+
+/* Border colors 
+
+	 Use with another border utility that sets border-width and style 
+	 i.e .border { border-width: 1px; border-style: solid; }     
+*/
+.border--navy {
+  border-color: #001F3F; }
+
+.border--blue {
+  border-color: #0074D9; }
+
+.border--aqua {
+  border-color: #7FDBFF; }
+
+.border--teal {
+  border-color: #39CCCC; }
+
+.border--olive {
+  border-color: #3D9970; }
+
+.border--green {
+  border-color: #2ECC40; }
+
+.border--lime {
+  border-color: #01FF70; }
+
+.border--yellow {
+  border-color: #FFDC00; }
+
+.border--orange {
+  border-color: #FF851B; }
+
+.border--red {
+  border-color: #FF4136; }
+
+.border--fuchsia {
+  border-color: #F012BE; }
+
+.border--purple {
+  border-color: #B10DC9; }
+
+.border--maroon {
+  border-color: #85144B; }
+
+.border--white {
+  border-color: #fff; }
+
+.border--gray {
+  border-color: #aaa; }
+
+.border--silver {
+  border-color: #ddd; }
+
+.border--black {
+  border-color: #111; }
+
+/* Fills for SVG */
+.fill-navy {
+  fill: #001F3F; }
+
+.fill-blue {
+  fill: #0074D9; }
+
+.fill-aqua {
+  fill: #7FDBFF; }
+
+.fill-teal {
+  fill: #39CCCC; }
+
+.fill-olive {
+  fill: #3D9970; }
+
+.fill-green {
+  fill: #2ECC40; }
+
+.fill-lime {
+  fill: #01FF70; }
+
+.fill-yellow {
+  fill: #FFDC00; }
+
+.fill-orange {
+  fill: #FF851B; }
+
+.fill-red {
+  fill: #FF4136; }
+
+.fill-fuchsia {
+  fill: #F012BE; }
+
+.fill-purple {
+  fill: #B10DC9; }
+
+.fill-maroon {
+  fill: #85144B; }
+
+.fill-white {
+  fill: #fff; }
+
+.fill-gray {
+  fill: #aaa; }
+
+.fill-silver {
+  fill: #ddd; }
+
+.fill-black {
+  fill: #111; }
+
+/* Strokes for SVG */
+.stroke-navy {
+  stroke: #001F3F; }
+
+.stroke-blue {
+  stroke: #0074D9; }
+
+.stroke-aqua {
+  stroke: #7FDBFF; }
+
+.stroke-teal {
+  stroke: #39CCCC; }
+
+.stroke-olive {
+  stroke: #3D9970; }
+
+.stroke-green {
+  stroke: #2ECC40; }
+
+.stroke-lime {
+  stroke: #01FF70; }
+
+.stroke-yellow {
+  stroke: #FFDC00; }
+
+.stroke-orange {
+  stroke: #FF851B; }
+
+.stroke-red {
+  stroke: #FF4136; }
+
+.stroke-fuchsia {
+  stroke: #F012BE; }
+
+.stroke-purple {
+  stroke: #B10DC9; }
+
+.stroke-maroon {
+  stroke: #85144B; }
+
+.stroke-white {
+  stroke: #fff; }
+
+.stroke-gray {
+  stroke: #aaa; }
+
+.stroke-silver {
+  stroke: #ddd; }
+
+.stroke-black {
+  stroke: #111; }
+
+/* PAGE -------------------------------- */
+/* classes */
+.lead {
+  margin: 1.5em 0 1em 0;
+  font-size: 26px;
+  font-weight: 300; }
+
+.centered {
+  text-align: center; }
+
+/* buttons */
+[class*="btn-"] {
+  display: inline-block;
+  padding: 1em 1.5em;
+  margin: 0.25em;
+  font-size: 1.25em;
+  -webkit-transition: 1s all;
+          transition: 1s all; }
+  [class*="btn-"]:focus {
+    outline: none; }
+  [class*="btn-"]:hover {
+    color: #fff; }
+
+.btn-navy {
+  background: #001F3F;
+  color: #fff;
+  border: 2px solid black; }
+  .btn-navy:hover {
+    background: black; }
+
+.btn-blue {
+  background: #0074D9;
+  color: #fff;
+  border: 2px solid #002340; }
+  .btn-blue:hover {
+    background: #002340; }
+
+.btn-aqua {
+  background: #7FDBFF;
+  color: #fff;
+  border: 2px solid #4ccfff; }
+  .btn-aqua:hover {
+    background: #47ceff; }
+
+.btn-teal {
+  background: #39CCCC;
+  color: #fff;
+  border: 2px solid #165656; }
+  .btn-teal:hover {
+    background: #165656; }
+
+.btn-olive {
+  background: #3D9970;
+  color: #fff;
+  border: 2px solid #112c20; }
+  .btn-olive:hover {
+    background: #112c20; }
+
+.btn-green {
+  background: #2ECC40;
+  color: #fff;
+  border: 2px solid #124f18; }
+  .btn-green:hover {
+    background: #124f18; }
+
+.btn-lime {
+  background: #01FF70;
+  color: #fff;
+  border: 2px solid #00672d; }
+  .btn-lime:hover {
+    background: #00672d; }
+
+.btn-yellow {
+  background: #FFDC00;
+  color: #fff;
+  border: 2px solid #665700; }
+  .btn-yellow:hover {
+    background: #665700; }
+
+.btn-orange {
+  background: #FF851B;
+  color: #fff;
+  border: 2px solid #813a00; }
+  .btn-orange:hover {
+    background: #813a00; }
+
+.btn-red {
+  background: #FF4136;
+  color: #fff;
+  border: 2px solid #9c0800; }
+  .btn-red:hover {
+    background: #9c0800; }
+
+.btn-fuchsia {
+  background: #F012BE;
+  color: #fff;
+  border: 2px solid #63064f; }
+  .btn-fuchsia:hover {
+    background: #63064f; }
+
+.btn-purple {
+  background: #B10DC9;
+  color: #fff;
+  border: 2px solid #320439; }
+  .btn-purple:hover {
+    background: #320439; }
+
+.btn-maroon {
+  background: #85144B;
+  color: #fff;
+  border: 2px solid black; }
+  .btn-maroon:hover {
+    background: black; }
+
+.btn-white {
+  background: #fff;
+  color: #111;
+  border: 2px solid #b3b3b3; }
+  .btn-white:hover {
+    background: #b3b3b3; }
+
+.btn-silver {
+  background: #ddd;
+  color: #fff;
+  border: 2px solid #919191; }
+  .btn-silver:hover {
+    background: #919191; }
+
+.btn-gray {
+  background: #aaa;
+  color: #fff;
+  border: 2px solid #5d5d5d; }
+  .btn-gray:hover {
+    background: #5d5d5d; }
+
+.btn-black {
+  background: #111;
+  color: #fff;
+  border: 2px solid black; }
+  .btn-black:hover {
+    background: #b3b3b3; }
+
+/* navigation */
+nav {
+  padding: 1em;
+  margin: 1.5em 0; }
+
+nav a {
+  padding-right: 1em; }
+
+nav.brand {
+  font-size: 110%; }
+
+nav.bg-navy a {
+  color: #d8ebff; }
+  nav.bg-navy a:hover {
+    color: #111; }
+
+nav.bg-blue a {
+  color: white; }
+  nav.bg-blue a:hover {
+    color: #111; }
+
+nav.bg-aqua a {
+  color: #b2eaff; }
+  nav.bg-aqua a:hover {
+    color: #111; }
+
+nav.bg-teal a {
+  color: white; }
+  nav.bg-teal a:hover {
+    color: #111; }
+
+nav.bg-olive a {
+  color: white; }
+  nav.bg-olive a:hover {
+    color: #111; }
+
+nav.bg-green a {
+  color: white; }
+  nav.bg-green a:hover {
+    color: #111; }
+
+nav.bg-lime a {
+  color: white; }
+  nav.bg-lime a:hover {
+    color: #111; }
+
+nav.bg-yellow a {
+  color: #ffffff; }
+  nav.bg-yellow a:hover {
+    color: #111; }
+
+nav.bg-orange a {
+  color: white; }
+  nav.bg-orange a:hover {
+    color: #111; }
+
+nav.bg-red a {
+  color: white; }
+  nav.bg-red a:hover {
+    color: #111; }
+
+nav.bg-fuchsia a {
+  color: white; }
+  nav.bg-fuchsia a:hover {
+    color: #111; }
+
+nav.bg-purple a {
+  color: white; }
+  nav.bg-purple a:hover {
+    color: #111; }
+
+nav.bg-maroon a {
+  color: white; }
+  nav.bg-maroon a:hover {
+    color: #111; }
+
+nav.bg-white a {
+  color: #2b2b2b; }
+  nav.bg-white a:hover {
+    color: #aaa; }
+
+nav.bg-silver a {
+  color: white; }
+  nav.bg-silver a:hover {
+    color: #aaa; }
+
+nav.bg-gray a {
+  color: white; }
+  nav.bg-gray a:hover {
+    color: #ddd; }
+
+nav.bg-black a {
+  color: #dddddd; }
+  nav.bg-black a:hover {
+    color: #aaa; }
+
+/* page header */
+.page-header {
+  border-bottom: 3px solid #aaa; }
+
+.page-header h1 {
+  font-size: 2em !important; }
+
+/* footer */
+footer {
+  margin: 4em 0 0 0; }
+/*# sourceMappingURL=thin.css.map */

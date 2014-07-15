@@ -1,0 +1,54 @@
+/* PAGE -------------------------------- */
+
+/* classes */
+.lead     { margin: 1.5em 0 1em 0; font: { size: 26px; weight: 300; } }
+.centered { text: { align: center; } }
+
+/* buttons */
+[class*="btn-"] { display: inline-block; padding: 1em 1.5em; margin: .25em; font-size: 1.25em; transition: 1s all; &:focus { outline:none; } &:hover { color: $white;	} }
+.btn-navy    { background: $navy;    color: $white;  border: 2px solid darken($navy, 30%);    &:hover { background: darken($navy, 30%); } }
+.btn-blue    { background: $blue;    color: $white;  border: 2px solid darken($blue, 30%);    &:hover { background: darken($blue, 30%); } }
+.btn-aqua    { background: $aqua;    color: $white;  border: 2px solid darken($aqua, 10%);    &:hover { background: darken($aqua, 11%); } }
+.btn-teal    { background: $teal;    color: $white;  border: 2px solid darken($teal, 30%);    &:hover { background: darken($teal, 30%); } }
+.btn-olive   { background: $olive;   color: $white;  border: 2px solid darken($olive, 30%);   &:hover { background: darken($olive, 30%); } }
+.btn-green   { background: $green;   color: $white;  border: 2px solid darken($green, 30%);   &:hover { background: darken($green, 30%); } }
+.btn-lime    { background: $lime;    color: $white;  border: 2px solid darken($lime, 30%);    &:hover { background: darken($lime, 30%); } }
+.btn-yellow  { background: $yellow;  color: $white;  border: 2px solid darken($yellow, 30%);  &:hover { background: darken($yellow, 30%); } }
+.btn-orange  { background: $orange;  color: $white;  border: 2px solid darken($orange, 30%);  &:hover { background: darken($orange, 30%); } }
+.btn-red     { background: $red;     color: $white;  border: 2px solid darken($red, 30%);     &:hover { background: darken($red, 30%); } }
+.btn-fuchsia { background: $fuchsia; color: $white;  border: 2px solid darken($fuchsia, 30%); &:hover { background: darken($fuchsia, 30%); } }
+.btn-purple  { background: $purple;  color: $white;  border: 2px solid darken($purple, 30%);  &:hover { background: darken($purple, 30%); } }
+.btn-maroon  { background: $maroon;  color: $white;  border: 2px solid darken($maroon, 30%);  &:hover { background: darken($maroon, 30%); } }
+.btn-white   { background: $white;   color: $black;  border: 2px solid darken($white, 30%);   &:hover { background: darken($white, 30%); } }
+.btn-silver  { background: $silver;  color: $white;  border: 2px solid darken($silver, 30%);  &:hover { background: darken($silver, 30%); } }
+.btn-gray    { background: $gray;    color: $white;  border: 2px solid darken($gray, 30%);    &:hover { background: darken($gray, 30%); } }
+.btn-black   { background: $black;   color: $white;  border: 2px solid darken($black, 30%);   &:hover { background: darken($white, 30%); } }
+
+/* navigation */
+nav { padding: 1em; margin: 1.5em 0; }
+nav a { padding-right: 1em; }
+nav.brand { font: { size: 110%; } }
+nav.bg-navy    { a { color: lighten($navy, 80%);    &:hover { color: $black; } } } 
+nav.bg-blue    { a { color: lighten($blue, 80%);    &:hover { color: $black; } } } 
+nav.bg-aqua    { a { color: lighten($aqua, 10%);    &:hover { color: $black; } } } 
+nav.bg-teal    { a { color: lighten($teal, 80%);    &:hover { color: $black; } } } 
+nav.bg-olive   { a { color: lighten($olive, 80%);   &:hover { color: $black; } } } 
+nav.bg-green   { a { color: lighten($green, 80%);   &:hover { color: $black; } } } 
+nav.bg-lime    { a { color: lighten($lime, 80%);    &:hover { color: $black; } } } 
+nav.bg-yellow  { a { color: lighten($yellow, 80%);  &:hover { color: $black; } } } 
+nav.bg-orange  { a { color: lighten($orange, 80%);  &:hover { color: $black; } } } 
+nav.bg-red     { a { color: lighten($red, 80%);     &:hover { color: $black; } } } 
+nav.bg-fuchsia { a { color: lighten($fuchsia, 80%); &:hover { color: $black; } } } 
+nav.bg-purple  { a { color: lighten($purple, 80%);  &:hover { color: $black; } } }
+nav.bg-maroon  { a { color: lighten($maroon, 80%);  &:hover { color: $black; } } } 
+nav.bg-white   { a { color: lighten($black, 10%);   &:hover { color: $gray; } } } 
+nav.bg-silver  { a { color: lighten($silver, 80%);  &:hover { color: $gray; } } } 
+nav.bg-gray    { a { color: lighten($gray, 80%);    &:hover { color: $silver; } } }
+nav.bg-black   { a { color: lighten($black, 80%);   &:hover { color: $gray; } } }
+
+/* page header */
+.page-header { border-bottom: 3px solid $gray; }
+.page-header h1 { font-size: 2em !important; }
+
+/* footer */
+footer { margin: 4em 0 0 0; }
